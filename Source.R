@@ -1,10 +1,8 @@
-library(pROC, quietly=TRUE)
-library(microbenchmark, quietly=TRUE)
+library(pROC)
 library(gbm)
 library(randomForest)
 library(caret)
 library(readr)
-library(pROC)
 library(rpart.plot)
 library(caTools);library(rpart)
 
